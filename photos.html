@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    	<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    	<link rel="stylesheet" href="style.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       <script type="text/javascript" src="move.js"></script>
+  	</head>
+  	
+    <body>
+
+    <div class="new-logo">
+      <div class="container">
+          <div class="company">
+              <a href="index.html"><img src="sized/logos/company-logo.jpg" alt="Absolute Detail"></a>
+          </div>
+
+          <div class="banpics">
+            <img src="sized/logos/water.jpg"> 
+          </div>
+
+          <div class="phone">
+                <p>(910)622.4235</p>
+          </div>
+      </div>
+    </div>
+
+  		<div class="nav">
+        
+      		<div class="container">
+        		<ul>
+              <a id="jump2"></a>
+          			<li><a href="index.html">Home</a></li>
+         			<li><a href="services.html">Services & Pricing</a></li>
+        			<li><a href="photos.html#jump2" class="selected">Photos</a></li>
+          			<li><a href="contact.html">Contact</a></li>
+        		</ul>
+      		</div>
+    	</div>
+  		<div class="photos">
+  			<div class="container">
+  				<h2><b>Photos</b></h2>
+          <!-- <img src="sized/color2.jpg"> -->
+          <div class="lg-pic-container">
+
+            <div id="house_lg" style="display:block;" id="lg_pic">
+              <img src="sized/photos/house.jpg" class="active">
+            </div>
+            <div id="belk_lg" style="display:none;" id="lg_pic">
+              <img src="sized/photos/belk.jpg">
+            </div>
+            <div id="car_lg" style="display:none;" id="lg_pic" >
+              <img src="sized/photos/car.jpg">
+            </div>
+            <div id="deck_lg" style="display:none;" id="lg_pic">
+              <img src="sized/photos/deck.jpg">
+            </div>
+            <div id="pier_lg" style="display:none;" id="lg_pic">
+              <img src="sized/photos/pier.jpg">
+            </div>
+            <div id="side_house_lg" style="display:none;" id="lg_pic">
+              <img src="sized/photos/side-house.jpg">
+            </div>
+            <div id="table_lg" style="display:none;" id="lg_pic">
+              <img src="sized/photos/table.jpg">
+            </div>
+            
+          </div>
+          <div class="pic-gallery">
+            <input type="button" id="house" onclick="show_house()">
+            <input type="button" id="belk" class="active" onclick="show_belk()">
+            <input type="button" id="car" onclick="show_car()">
+            <input type="button" id="deck" onclick="show_deck()">
+            <input type="button" id="pier" onclick="show_pier()">
+            <input type="button" id="side_house" onclick="show_side_house()">
+            <input type="button" id="table" onclick="show_table()">
+          </div>
+          <br>
+          <br>
+          <br>
+  			</div>
+  		</div>
+      <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><b>CONTACT US</b></p>
+                    <p><i>(910)622-4235</i></p>
+                    <p><i>absolutedetailnc@gmail.com</i></p>
+                </div>
+                <div class="col-md-2">
+                    <img src="sized/logos/drop-logo.png" id="ad_drop">
+                </div>
+                <div class="col-md-2">
+                    <p><b>FOLLOW US</b>
+                        <br>
+                        <a href="https://www.facebook.com/pages/Absolute-Detail/177165485705620" target="_blank"><img src="sized/logos/facebook.png"></a>
+                    </p>
+                </div>
+            </div>
+            <div class="links">
+                <p><a href="index.html">Home</a>  |  <a href="services.html">Services & Pricing</a>  |  <a href="photos.html">Photos</a>  |  <a href="about.html">About</a>  |  <a href="contact.html">Contact</a></p>
+            </div>
+        </div>
+    </div>
+  	</body>
+</html>

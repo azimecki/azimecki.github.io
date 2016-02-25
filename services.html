@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+    
+    	<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    	<link rel="stylesheet" href="style.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+       <script type="text/javascript" src="move.js"></script>
+
+  	</head>
+  	
+    <body>
+
+    <div class="new-logo">
+      <div class="container">
+          <div class="company">
+              <a href="index.html"><img src="sized/logos/company-logo.jpg" alt="Absolute Detail"></a>
+          </div>
+
+          <div class="banpics">
+            <img src="sized/logos/water.jpg">  
+          </div>
+
+          <div class="phone">
+                <p>(910)622.4235</p>
+          </div>
+      </div>
+    </div>
+
+  		<div class="nav">
+      		<div class="container">
+        		<ul>
+          			<li><a href="index.html">Home</a></li>
+         			<li><a href="services.html" class="selected">Services & Pricing</a></li>
+        			<li><a href="photos.html#jump2">Photos</a></li>
+          			<li><a href="contact.html">Contact</a></li>
+        		</ul>
+      		</div>
+    	</div>
+  		<div class="service-price">
+  			<div class="container">
+          <a name="jump"></a>
+  				<h2><b>Services & Pricing</b></h2>
+  				<p>Absolute Detail provides pressure/power washing and car detailing services to automobiles, boats, vehicle fleets, siding, brick, concrete, driveways, walkways, decks, fences, pools, parking lots, restaurants, apartment complexes, parking garages, and gas stations.</p>
+          <br>
+
+          <h6>Click on the images below for pricing</h6>
+          <a href="#jump"><input type="button" class="Test 1" onclick="show1()" /></a>       
+          <a href="#jump"><input type="button" id="t2" class="Test 2" onclick="show2()" /></a>
+          <a href="#jump"><input type="button" id="t3" class="Test 3" onclick="show3()" /></a>
+
+          <br>
+          <br>
+
+            <div id="testOne" style="display:none;" class="allTests">
+              
+
+              <h3><b>Automobiles</b></h3>
+              <p><b>Standard Detail - $35/sedan $45/SUV</b>
+              <br>
+              <i>Exterior wash, door jams wiped down, wheel treatment, interior dusted, carpet vacuumed and windows cleaned</i>
+              <br>
+              <br>
+              <b>Deluxe Hand Wax - $135/sedan $145/SUV</b>
+              <br>
+              <i>Standard detail, high quality wax is then applied by hand to protect your vehicle's finish</i>
+              <br>
+              <br>
+              <b>Carpet Shampoo - $40</b>
+              <br>
+              <i>Deep cleaning to the base of the carpet, removes most stains; floor mats also included</i>
+              <br>
+              <br>
+              <b>Leather Cleaning & Conditioning - $20</b>
+              <br>
+              <i>Cleans and protects leather from sun damage and everyday use</i>
+              <br>
+              <br>
+              <b>Engine Detail - $20</b>
+              <br>
+              <i>We provide a "topside" cleaning and dressing to make the engine shine like new</i>
+              <br>
+              <br>
+              <b>Windshield Treatment - $5</b>
+              <br>
+              <i>Water repellent applied by hand; see clearer and drive safer</i>
+            </div>
+            <div id="testTwo" style="display:none;" class="allTests">
+              <h3><b>Residential</b></h3>
+              <b>Homes - 70% of homes can be done for around $150-$200</b>
+              <br>
+              <i>Entire exterior is washed with low pressure and a blend of chemicals; removes dirt, mold, and mildew; neighborhood/multiple house discounts available</i>
+              <br>
+              <br>
+              <b>Driveways/walkways - $0.08-$0.14/ Sq. Ft.</b>
+              <br>
+              <i>State-of-the-art equipment used with high pressure and water temperatures over 300°F to remove dirt and stains, including oil spots</i>
+              <br>
+              <br>
+              <b>Decks/fences - $0.25-$0.55 /Sq. Ft.</b>
+              <br>
+              <i>Washed with high pressure and a blend of chemicals to restore woods natural finish</i>
+            </div>
+            <div id="testThree" style="display:none;" class="allTests">
+              <h3><b>Commercial</b></h3>
+              <b>Building Exterior & Sidewalks - Estimate</b>
+              <br>
+              <i>Pressure washed to remove dirt, gum and mold</i>
+              <br>
+              <br>
+              <b>Bank/Restaurant Drive-Thrus - Estimate</b>
+              <br>
+              <i>Pressure washed to remove dirt, gum, oil and gas stains</i>
+              <br>
+              <br>
+              <b>Parking lots/gas station - Estimate</b>
+              <br>
+              <i>Pressure washed to remove oil and gas stains</i>
+              <br>
+              <br>
+              <b>Fleets - Estimate</b>
+              <br>
+              <i>Hand scrubbed to remove dirt, grime and bugs. Tire shine included, Hand cleaned exterior windows optional</i>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+          </p>
+
+  			</div>
+  		</div>
+      <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p><b>CONTACT US</b></p>
+                    <p><i>(910)622-4235</i></p>
+                    <p><i>absolutedetailnc@gmail.com</i></p>
+                </div>
+                <div class="col-md-2">
+                    <img src="sized/logos/drop-logo.png" id="ad_drop">
+                </div>
+                <div class="col-md-2">
+                    <p><b>FOLLOW US</b>
+                        <br>
+                        <a href="https://www.facebook.com/pages/Absolute-Detail/177165485705620" target="_blank"><img src="sized/logos/facebook.png"></a>
+                    </p>
+                </div>
+            </div>
+            <div class="links">
+                <p><a href="index.html">Home</a>  |  <a href="services.html">Services & Pricing</a>  |  <a href="photos.html">Photos</a>  |  <a href="about.html">About</a>  |  <a href="contact.html">Contact</a></p>
+            </div>
+        </div>
+    </div>
+  	</body>
+</html>
